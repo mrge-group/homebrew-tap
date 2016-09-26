@@ -3,7 +3,8 @@ class Thrift < Formula
   homepage "https://thrift.apache.org/"
 
   stable do
-    url "https://github.com/shopping24/thrift.git"
+    #url "https://github.com/shopping24/thrift.git"
+    url "https://github.com/shopping24/thrift/archive/1.0.0.tar.gz"
     sha256 "9e3a31b6916aeee4277735838c5e0cb0b8f7d7c99cc095b0137e18b695bc6b44"
     version "1.0.0"
 
