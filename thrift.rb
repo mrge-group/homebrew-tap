@@ -24,7 +24,7 @@ class Thrift < Formula
   depends_on :python => :optional
 
   def install
-    system "./bootstrap.sh" unless build.stable?
+    system "./bootstrap.sh"
 
     exclusions = ["--without-ruby", "--disable-tests", "--without-php_extension"]
 
