@@ -6,5 +6,5 @@ cask 'canon-printer' do
   name 'Canon UFRII Printer Driver'
   homepage 'http://www.canon.de/support/consumer_products/products/printers/laser/i-sensys_lbp7660cdn.aspx'
 
-  pkg "Mac_UFRII_Ver#{version.no_dots}_00/UFRII_LT_LIPS_LX_Installer.pkg"
+  pkg "UFRII_LT_LIPS_LX_Installer.pkg"
 end
