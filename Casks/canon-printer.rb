@@ -7,4 +7,6 @@ cask 'canon-printer' do
   homepage 'http://www.canon.de/support/consumer_products/products/printers/laser/i-sensys_lbp7660cdn.aspx'
 
   pkg "UFRII_LT_LIPS_LX_Installer.pkg"
+
+  uninstall pkgutil: 'jp.co.canon.CUPSPrinter.*'
 end
