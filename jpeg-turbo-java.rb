@@ -17,7 +17,7 @@ class JpegTurboJava < Formula
   depends_on "nasm" => :build
 
   def install
-    system "cmake", ".", "-DWITH_JPEG7=1", "-DWITH_JAVA=1", *std_cmake_args
+    system "cmake", ".", "-DWITH_JPEG8=1", "-DWITH_JAVA=1", *std_cmake_args
     system "make"
     system "make", "test"
     system "make", "install"
