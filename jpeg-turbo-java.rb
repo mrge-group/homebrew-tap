@@ -2,7 +2,7 @@ class JpegTurboJava < Formula
   desc "JPEG image codec that aids compression and decompression"
   homepage "https://www.libjpeg-turbo.org/"
   url "https://github.com/libjpeg-turbo/libjpeg-turbo/archive/2.0.3.tar.gz"
-  sha256 "acb8599fe5399af114287ee5907aea4456f8f2c1cc96d26c28aebfdf5ee82fed"
+  sha256 "a69598bf079463b34d45ca7268462a18b6507fdaa62bb1dfd212f02041499b5d"
   head "https://github.com/libjpeg-turbo/libjpeg-turbo.git"
 
   bottle do
