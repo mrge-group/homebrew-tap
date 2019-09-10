@@ -1,7 +1,7 @@
 class JpegTurboJava < Formula
   desc "JPEG image codec that aids compression and decompression"
   homepage "https://www.libjpeg-turbo.org/"
-  url "https://downloads.sourceforge.net/project/libjpeg-turbo/2.0.2/libjpeg-turbo-2.0.2.tar.gz"
+  url "https://github.com/libjpeg-turbo/libjpeg-turbo/archive/2.0.3.tar.gz"
   sha256 "acb8599fe5399af114287ee5907aea4456f8f2c1cc96d26c28aebfdf5ee82fed"
   head "https://github.com/libjpeg-turbo/libjpeg-turbo.git"
 
@@ -17,7 +17,7 @@ class JpegTurboJava < Formula
   depends_on "nasm" => :build
 
   def install
-    system "cmake", ".", "-DWITH_JPEG8=1", "-DWITH_JAVA=1", *std_cmake_args
+    system "cmake", ".", "-DWITH_JAVA=1", *std_cmake_args
     system "make"
     system "make", "test"
     system "make", "install"

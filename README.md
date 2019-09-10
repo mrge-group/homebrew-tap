@@ -1,4 +1,4 @@
-# Shopping24 Homebrew Tap
+# shopping24 Homebrew Tap
 
 # Usage
 
