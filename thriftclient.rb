@@ -1,8 +1,8 @@
 class Thriftclient < Formula
 	desc "shopping24 API Thrift Client: Tests requests to API Thrift endpoints"
 	homepage "https://github.com/shopping24/api-thriftclient"
-	url "http://mirror.gut.s24.com/misc/thriftclient/api-thriftclient-1.0.8-jar-with-dependencies.jar"
-	sha256 "aa956552c7014b8ea6c0d94712ff6fd5613d8a06fe6bbfc96b34a2195e3ac522"
+	url "http://mirror.gut.s24.com/misc/thriftclient-latest.jar"
+	sha256 "4e60d14ac6aeba35e0c7e9beac40874d26fc6daeca6eccd584ec14f2c8ca6183"
 
 	bottle do
 		sha256 "03baa4d6f79772591dcd0ac5db5a148fbe79633b7ab66de104cd244141fbb0d0" => :mojave
