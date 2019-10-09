@@ -13,8 +13,8 @@ class Thriftclient < Formula
 	end
 
 	def install
-		libexec.install "api-thriftclient-1.0.8-jar-with-dependencies.jar"
-		bin.write_jar_script libexec/"api-thriftclient-1.0.8-jar-with-dependencies.jar", "thriftclient"
+		libexec.install "thriftclient-latest.jar"
+		bin.write_jar_script libexec/"thriftclient-latest.jar", "thriftclient"
 	end
 
 	test do
